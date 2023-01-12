@@ -1,0 +1,75 @@
+{
+    "cap_metric": {
+        "Bleu_1": 0.3205028474330902,
+        "Bleu_2": 0.2616894841194153,
+        "Bleu_3": 0.0033917769324034452,
+        "Bleu_4": 0.0003861426666844636,
+        "METEOR": 0.19449417293071747,
+        "ROUGE_L": 0.39327020730025164,
+        "CIDEr": 0.16136308253603607,
+        "SPICE": 0.022119386372435153
+    },
+    "best_prob_comment_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    },
+    "best_cs_comment_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    },
+    "best_clip_comment_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    },
+    "best_clip_cs_comment_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    },
+    "best_multi_comment_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    },
+    "best_multi_comment_ungroup_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    },
+    "best_multi_cs_comment_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    },
+    "best_multi_clip_comment_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    },
+    "best_multi_clip_cs_comment_metric_results_dict": {
+        "acc": 0.875,
+        "srcc": 1.0,
+        "plcc": 0.9633,
+        "rmse": 0.40139999985694885,
+        "mae": 0.3163999915122986
+    }
+}

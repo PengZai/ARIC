@@ -1,0 +1,15 @@
+torch==1.9.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.10.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+numpy
+Pillow
+scikit-image
+scipy
+tqdm
+pandas
+ftfy 
+regex 
+tqdm
+git+https://github.com/openai/CLIP.git
+requests
+transformers

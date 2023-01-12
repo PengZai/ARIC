@@ -1,0 +1,11 @@
+__pycache__/
+*.egg-info/
+*.eggs
+
+saved_models
+cs_cscore_generation_comment_for_eval
+constant_generation_comment_for_eval
+logs
+gpt2-pytorch_model.bin
+.vscode
+metrics
