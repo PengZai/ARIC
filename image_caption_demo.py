@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
     # 多gpu
     model.cuda()
-    model=torch.nn.SyncBatchNorm.convert_sync_batchnorm(model)
+    # model=torch.nn.SyncBatchNorm.convert_sync_batchnorm(model)
     model = DDP(model, device_ids=[rank], output_device=rank, find_unused_parameters=True)
 
     training_loss = 0

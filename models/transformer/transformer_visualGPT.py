@@ -10,7 +10,7 @@ from models.transformer.config import GPT2Config
 from models.transformer.load_gptmodel import load_weight
 from transformers import GPT2Tokenizer
 
-state_dict = torch.load('gpt2-pytorch_model.bin', map_location='cuda:0' if torch.cuda.is_available() else 'cpu')
+state_dict = torch.load('./saved_models/gpt2/gpt2-pytorch_model.bin', map_location='cuda:0' if torch.cuda.is_available() else 'cpu')
 
 
 class Transformer_visualgpt(CaptioningModel):

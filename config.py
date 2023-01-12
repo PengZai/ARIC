@@ -37,24 +37,26 @@ def get_args():
     parser.add_argument('--generation_eval_comment_root',type = str, default="./generation_comment_for_val")
 
 
-    # parser.add_argument('--huggingface_model_root', default='/home/pengzai/huggingface_model', type=str)
-    # parser.add_argument('--image_root', default='/home/pengzai/database/DPC2022/img_256x256', type=str)
-    # parser.add_argument('--image_bottom_up_attention_feature_root', default='/home/pengzai/database/DPC2022/img_bottom_up_feature_256x256', type=str)
-    # parser.add_argument('--data_root', default='/home/pengzai/database/DPC2022/anotation/clean_and_all_score', type=str)
-    # parser.add_argument('--train_root', default='/home/pengzai/database/DPC2022/anotation/train', type=str)
-    # parser.add_argument('--comments_root', default='/home/pengzai/database/DPC2022/anotation/comments', type=str)
-    # parser.add_argument('--test_and_val_root', default='/home/pengzai/database/DPC2022/anotation/test_and_val', type=str)
+    parser.add_argument('--huggingface_model_root', default='/raid/pengzai/model', type=str)
+    parser.add_argument('--image_root', default='/raid/pengzai/database/DPC2022/img_256x256', type=str)
+    parser.add_argument('--image_bottom_up_attention_feature_root', default='/raid/pengzai/database/DPC2022/img_bottom_up_feature_256x256', type=str)
+    parser.add_argument('--data_root', default='/raid/pengzai/database/DPC2022/anotation/clean_and_all_score', type=str)
+    parser.add_argument('--train_root', default='/raid/pengzai/database/DPC2022/anotation/train', type=str)
+    parser.add_argument('--comments_root', default='/raid/pengzai/database/DPC2022/anotation/comments', type=str)
+    parser.add_argument('--test_and_val_root', default='/raid/pengzai/database/DPC2022/anotation/test_and_val', type=str)
 
-    parser.add_argument('--huggingface_model_root', default='/media/pengzai/389215239214E762/huggingface_model', type=str)
-    parser.add_argument('--image_root', default='/media/pengzai/389215239214E762/database/DPC2022/img_256x256', type=str)
-    parser.add_argument('--image_bottom_up_attention_feature_root', default='/media/pengzai/389215239214E762/database/DPC2022/img_bottom_up_feature_256x256', type=str)
-    parser.add_argument('--data_root', default='/media/pengzai/389215239214E762/database/DPC2022/anotation/clean_and_all_score', type=str)
-    parser.add_argument('--train_root', default='/media/pengzai/389215239214E762/database/DPC2022/anotation/train', type=str)
-    parser.add_argument('--comments_root', default='/media/pengzai/389215239214E762/database/DPC2022/anotation/comments', type=str)
-    parser.add_argument('--test_and_val_root', default='/media/pengzai/389215239214E762/database/DPC2022/anotation/test_and_val', type=str)
+    # parser.add_argument('--huggingface_model_root', default='/media/pengzai/389215239214E762/huggingface_model', type=str)
+    # parser.add_argument('--image_root', default='/media/pengzai/389215239214E762/database/DPC2022/img_256x256', type=str)
+    # parser.add_argument('--image_bottom_up_attention_feature_root', default='/media/pengzai/389215239214E762/database/DPC2022/img_bottom_up_feature_256x256', type=str)
+    # parser.add_argument('--data_root', default='/media/pengzai/389215239214E762/database/DPC2022/anotation/clean_and_all_score', type=str)
+    # parser.add_argument('--train_root', default='/media/pengzai/389215239214E762/database/DPC2022/anotation/train', type=str)
+    # parser.add_argument('--comments_root', default='/media/pengzai/389215239214E762/database/DPC2022/anotation/comments', type=str)
+    # parser.add_argument('--test_and_val_root', default='/media/pengzai/389215239214E762/database/DPC2022/anotation/test_and_val', type=str)
 
 
     args = parser.parse_args()
+
+
 
     if not os.path.exists('%s' % (args.models_dir)):
         os.mkdir('%s' % (args.models_dir))

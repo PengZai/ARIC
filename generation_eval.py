@@ -37,7 +37,7 @@ def get_score_metric_from_list(as_preds_list, all_ascores):
 
 if __name__ == '__main__':
 
-  gen_data_root = 'cs_cscore_generation_comment_for_eval/epoch=14/num_beams=5'
+  gen_data_root = 'cs_cscore_generation_comment_for_eval/epoch=14/num_beams=256'
 
   if not os.path.exists(os.path.join(gen_data_root, 'selected')):
     os.mkdir(os.path.join(gen_data_root, 'selected'))
