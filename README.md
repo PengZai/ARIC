@@ -20,6 +20,8 @@ This repository is the official PyTorch implementation of *Aesthetically Relevan
 <h2 id="Introduction"> Introduction </h2>
 In this paper, we study image AQA and IAC together and present a new IAC method termed Aesthetically Relevant Image Captioning (ARIC). Based on the observation that most textual comments of an image are about objects and their interactions rather than aspects of aes- thetics, we first introduce the concept of Aesthetic Relevance Score (ARS) of a sentence and have developed a model to automatically label a sentence with its ARS. We then use the ARS to design the ARIC model which includes an ARS weighted IAC loss function and an ARS based diverse aes- thetic caption selector (DACS). We present extensive exper- imental results to show the soundness of the ARS concept and the effectiveness of the ARIC model by demonstrating that texts with higher ARS’s can predict the aesthetic ratings more accurately and that the new ARIC model can generate more accurate, aesthetically more relevant and more diverse image captions. Furthermore, a large new research database containing 510K images with over 5 million comments and 350K aesthetic scores
 
+
+### Multi-modal Aesthetic Quality Assessment
 ![](./figures/multimodal_assessment.png)
 
 
