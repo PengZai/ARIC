@@ -32,7 +32,7 @@ In this paper, we study image AQA and IAC together and present a new IAC method 
 
 You need to download the DPC2022 dataset.
 
-   For DPC2022 dataset, you can download it in [Baidu Netdisk](https://pan.baidu.com/s/1TT1EKNV3ivYXUDoX5hDVag) (access code: lrpn)
+   For DPC2022 dataset, you can download it in [DPC2022](https://pan.baidu.com/s/1_2aEymfsMoz3XqdjLxQCkw) (access code: syqe)
 
 ### 2. Dataset format
 
