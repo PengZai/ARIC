@@ -2,7 +2,7 @@
 
 Zhipeng Zhong, Fei Zhou and Guoping Qiu
 
-This repository is the official PyTorch implementation of *Aesthetically Relevant Image Captioning*([arxiv](https://arxiv.org/abs/2211.15378)). This paper has been accepted by AAAI 2023.
+This repository is the official PyTorch implementation of *Aesthetically Relevant Image Captioning*([arxiv](https://arxiv.org/abs/2211.15378)). This paper has been accepted by AAAI 2023 oral paper.
 
 
 ## Contents
@@ -32,7 +32,8 @@ In this paper, we study image AQA and IAC together and present a new IAC method 
 
 You need to download the DPC2022 dataset.
 
-   For DPC2022 dataset, you can download it in [DPC2022](https://pan.baidu.com/s/1_2aEymfsMoz3XqdjLxQCkw) (access code: syqe)
+   For DPC2022 dataset, you can download it in [DPC2022](https://pan.baidu.com/s/1Eh24hGbpLaZlbEzGB9GVhA) (access code: h6e5)
+   Notice: the link will be unavailable sometimes since the dataset can not pass through Baidudisk's review for illegal data. please let me know if the link dead again.
 
 ### 2. Dataset format
 
